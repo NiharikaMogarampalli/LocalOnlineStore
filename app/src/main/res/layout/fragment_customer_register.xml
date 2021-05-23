@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerRegisterFragment">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="9dp"
+            android:hint="username"
+            android:drawableRight="@drawable/ic_person"
+            android:background="@drawable/shape"
+            android:layout_marginTop="25dp"
+            android:id="@+id/uname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="9dp"
+            android:drawableRight="@drawable/ic_email"
+            android:background="@drawable/shape"
+            android:layout_marginTop="25dp"
+            android:hint="email"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="9dp"
+            android:drawableRight="@drawable/ic_password"
+            android:background="@drawable/shape"
+            android:layout_marginTop="25dp"
+            android:hint="password"
+            android:id="@+id/password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="9dp"
+            android:drawableRight="@drawable/ic_phone"
+            android:background="@drawable/shape"
+            android:layout_marginTop="25dp"
+            android:hint="phone number"
+            android:id="@+id/number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="9dp"
+            android:drawableRight="@drawable/ic_password"
+            android:background="@drawable/shape"
+            android:layout_marginTop="25dp"
+            android:hint="pincode"
+            android:id="@+id/pincode"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="location"
+            android:padding="9dp"
+            android:drawableRight="@drawable/ic_loc"
+            android:textColor="#3E2723"
+            android:textSize="21sp"
+            android:id="@+id/loc"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:id="@+id/register"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
